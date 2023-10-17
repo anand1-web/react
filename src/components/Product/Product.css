@@ -1,0 +1,73 @@
+/* proudct */
+.product-wrap {
+    background: #fff;
+    padding: 15px;
+}
+.product-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search-wrapper {
+    display: flex;
+}
+.form-search {
+    margin-right: 27px;
+    position: relative;
+}
+.pro-tab table th, .pro-tab table td {
+    text-align: left;
+}
+.pro-tab table th {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+    width:21%;
+}
+.pro-tab table td {
+    padding: 15px 0;
+}
+.pro-tab table th:first-child, .pro-tab table td:first-child {
+    width: 49%;
+}
+.product-name {
+    position: relative;
+    padding: 10px 0 10px 100px;
+}
+.product-name figure {
+    position: absolute;
+    top:4px;
+    left:0;
+    margin: 0;    
+}
+.product-name figure img {
+    width:80px;
+    height: 40px;
+    display: block;
+}
+.product-name span {
+    display: block;
+}
+@media only screen and (max-width: 767px) {
+    .pro-tab {
+        width: 100%;
+    overflow-x: auto;
+    }
+    .pro-tab table {
+        width: 555px;
+    }  
+
+
+    .product-head {
+        flex-direction: column;
+    }
+    .product-wrap .search-ber {
+        width:165px;
+    }
+    .product-head h1 {
+        margin-bottom: 15px;
+    }
+    
+   }

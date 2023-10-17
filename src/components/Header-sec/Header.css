@@ -1,0 +1,43 @@
+/* header */
+.dashboard-right {
+    width: 83%;
+}
+.header {
+    padding: 20px;
+}
+form.form-wrap {
+    position: relative;
+}
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.search-ber {
+    padding: 9px 12px 9px 44px;
+    border: none;
+    border-radius: 8px;
+    background: #8080800a;
+    width: 100%;
+}
+.search-icon img {
+    width: 15px;
+    height: 15px;
+}
+.search-btn {
+    position: absolute;
+    top: 9px;
+    left: 13px;
+    background: transparent;
+    border: none;
+}
+/* header  close*/
+@media only screen and (max-width: 767px) {
+    .header {
+        padding: 20px 0 20px 35px;
+    }
+    .header-wrap .search-container {
+        width:125px;
+    }
+    
+      
+}

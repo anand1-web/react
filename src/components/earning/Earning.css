@@ -1,0 +1,77 @@
+/* earing */
+.earing-main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.earing-box {
+    background-color: #fff;
+    padding: 20px 10px;
+    width: 23%;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+.earing-box:last-child {
+    margin: 0;
+}
+.icon {
+    display: block;
+}
+.earing-images {
+    width: 88px;
+    height: 88px;
+    background-color: #daffeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.earing-images.two {
+    background-color: #e7dbff;
+}
+.earing-images.this {
+    background-color: #ccf2ff;
+}
+.earing-images.four {
+    background-color: #feb2d9;
+}
+.earing-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.earn {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 13px;
+    display: block;
+}
+.earn-strong {
+    font-weight: bold;
+    font-size: 20px;
+}
+.earing-wrapper em {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+}
+.color-earn {
+    color: #00a744;
+   
+}
+.color-loss {
+    color: red;
+    
+}
+/* earing close*/
+@media only screen and (max-width: 767px) {
+   .earing-box {
+        width: 100%;
+        margin-bottom: 15px;
+        margin-right: 0;
+   }
+   
+  }
